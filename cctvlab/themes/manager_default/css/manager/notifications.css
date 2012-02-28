@@ -1,0 +1,49 @@
+
+.notification {
+	border: 0px solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding: 10px 10px 10px 36px;
+	margin: 0;
+	background-position: 10px 11px !important;
+	background-repeat: no-repeat !important;
+	position: relative;
+	display: none;
+}
+.notification p {
+	margin: 0;
+	padding: 0;
+}
+.error {
+	background: #ffcece url('../../image/icons/16-cross-circle.png');
+	border-color: #df8f8f;
+	color: #665252;
+}
+.attention {
+	background: #fffbcc url('../../image/icons/16-exclamation.png');
+	border-color: #e6db55;
+	color: #666452;
+}
+.success {
+	background: #d5ffce url('../../image/icons/16-tick-circle.png');
+	border-color: #9adf8f;
+	color: #556652;
+}
+.information {
+	background: #dbe3ff url('../../image/icons/16-information.png');
+	border-color: #a2b4ee;
+	color: #585b66;
+}
+.notification .close {
+	background-image: url('../../image/icons/16-cross-small-grey.png');
+	text-indent: -99999px;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 16px;
+	width: 16px;
+        border:  none;
+}

@@ -1,0 +1,163 @@
+table.productGrid {
+    margin:10px 0;
+    border-collapse:collapse;
+    width: 100%;
+}
+table.productGrid td {
+    width: 25%;
+    height: 197px;
+    text-align:  center;
+}
+table.productGrid td div.image{
+   margin: 10px 0;
+   height: 110px;
+}
+table.productGrid td div.name{
+   margin-bottom: 20px;
+   width: 125px;
+   height: 40px;
+   margin: 5px auto;
+   font-size: 12px;
+   text-align:  left;
+   font-weight:  bold;
+
+}
+table.productGrid td div.name a {
+  color:  #000000;
+}
+table.productGrid td img.add-to-comparing2{
+
+height: 30px;
+width: 30px;
+float: right;
+border: none;
+
+}
+table.productGrid td {
+   border-right:1px dashed #cccccc;
+}
+table.productGrid tr {
+   border-bottom:1px dashed #cccccc;
+}
+table.productGrid tr:last-child {
+   border-bottom:0;
+}
+table.productGrid td:last-child {
+   border-right:0;
+}
+
+/*lenses-item*/
+
+
+/*images*/
+table.images {
+    margin:0;
+     border-collapse:collapse;
+     padding: 0;
+}
+table.images td {
+    width: 50%;
+    vertical-align: top;
+}
+table.images td.small div {
+    float:  right;
+    margin: 0 5px 5px 0;
+    width: 104px;
+    height: 92px;
+
+}
+table.images td.big div {
+    float:  right;
+    border:  none;
+
+}
+.lenses-item .image {
+  margin-top: 15px;
+}
+/*title*/
+.lenses-item .title {
+  height:40px;
+  padding-right: 5px;
+}
+.lenses-item .title h1 {
+  margin: 0;
+  float: left;
+}
+.lenses-item .title div {
+    height: 32px;
+    width: 32px;
+
+}
+/*description*/
+.lenses-item .description {
+    text-align:  justify;
+    margin: 30px 0;
+}
+/*chart*/
+.chart {
+    margin-bottom: 50px;
+}
+.chart .item {
+    width:100%;
+    height:350px;
+}
+.chart ul {
+    width: 600px;
+    margin-left: 50px;
+    padding: 0px;
+}
+.chart ul li {
+    display: table-cell;
+    padding: 0 20px;
+    width: 300px;
+}
+.chart .val {
+    border:0;
+    color:#f6931f;
+    font-weight:bold;
+    width: 40px;
+}
+
+.slide {
+    padding: 5px;
+}
+/*specification*/
+.lenses-item .specification {
+    text-align:  justify;
+    margin: 20px 0;
+}
+.specification table td{
+  font-size: 12px;
+  color: #333333;
+}
+
+/*search*/
+
+.lenses-search {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lenses-search select {
+    width: 100%;
+}
+
+.lenses-search .input-val input {
+  width: 65px;
+}
+
+.lenses-search ul li{
+  margin: 0 0 0 -25px;
+  padding: 5px 0;
+  list-style: none ;
+}
+.lenses-search .slider .ui-slider-handle{
+  border-color: #999999;
+}
+.lenses-search .slider {
+  width: 170px;
+  margin: 0 auto;
+}
+
+
+

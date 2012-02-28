@@ -1,0 +1,42 @@
+table.files {
+    width:100%;
+    font-size:12px;
+}
+table.files tr {
+    height: 90px;    
+}
+table.files td { 
+     background-color:  #cccccc;  
+     margin: 1px;
+}
+table.files tr.state-error td {
+    background: #ffcece;
+    color: #665252;
+}
+table.files .button {
+    text-align:  center;
+}
+table.files .progress {
+    text-align:  center;
+}
+table.files .size {
+    text-align:  center;
+}
+table.files .button button {
+    padding:5px;
+	width:100px;
+	margin:0;
+	border:0;
+	color:#FFF;
+	background:#3a3d43;
+	cursor:pointer;
+}
+table.files .ui-progressbar {
+  width: 100%;
+  height: 20px;
+  background-color: #dddddd;
+}
+table.files .ui-progressbar-value {
+  background: url(../../image/manager/pbar-ani.gif);
+  height: 20px;
+}

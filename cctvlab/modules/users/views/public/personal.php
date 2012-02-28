@@ -1,0 +1,1 @@
+<a href="<?=  base_url('users/authorization/logout')?>">Выход</a>

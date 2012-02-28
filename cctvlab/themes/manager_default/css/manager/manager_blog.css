@@ -1,0 +1,22 @@
+root { 
+    display: block;
+}
+
+.Comment {
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #ffffcc;
+    width: 500px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    border-radius: 8px;
+}

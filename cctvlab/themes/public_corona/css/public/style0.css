@@ -1,0 +1,49 @@
+.right {
+    float:  right;
+}
+.left {
+    float:  left;
+}
+img.add-to-comparing {
+    cursor: pointer;
+    border: none;
+}
+/*pagination*/
+.paggination {
+	margin-top:30px;
+	text-align:left;
+}
+
+.paggination a {
+	padding:4px 9px;
+	margin: 0px 2px;
+	border:0px;
+	color:#000000;
+	cursor:pointer;
+	background:#cccccc;
+}
+.paggination a:hover {
+	background:#bf0000;
+	color:#ffffff;
+}
+.paggination span {
+	padding:4px 9px;
+	margin:0px 2px;
+	background:#bf0000;
+	color:#ffffff;
+	border:0px solid #CCC;
+}
+.registration_form  table{
+	width: 500px;
+	margin: 10px;
+}
+.registration_form  table td{
+	width: 40%;
+	padding: 5px 0;
+}
+.registration_form  table td:last-child{
+	width: 60%;
+}
+.registration_form  p{
+	margin-left: 10px;
+}
